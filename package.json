@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy": "https://vit-tm-task.api.trademarkia.app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
