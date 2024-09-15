@@ -1,0 +1,28 @@
+.container {
+  padding: 20px;
+  background-color: #f4f4f4; /* Example background color */
+}
+
+.title {
+  font-size: 2rem;
+  color: #333; /* Example text color */
+}
+
+.data-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.data-item {
+  background-color: #fff; /* Example card background color */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.loading, .error {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #666;
+}
