@@ -18,7 +18,7 @@ const SearchPage = () => {
     setError(null);
 
     try {
-      const response = await axios.post(`https://vit-tm-task.api.trademarkia.app/api/v3/us`, {
+      const response = await axios.post(`https://cors-anywhere.herokuapp.com/https://vit-tm-task.api.trademarkia.app/api/v3/us`, {
         query,
         owner,
         lawFirm,
